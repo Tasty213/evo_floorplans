@@ -19,9 +19,9 @@ def rot_center(image, angle):
 class Draw(object):
     """docstring for Draw"""
     def __init__(self, w, h, scale=1, save_path=None):
-        pygame.init()
+        # pygame.init()
         pygame.font.init()
-        pygame.mixer.init()
+        # pygame.mixer.init()
 
         self.fonts = dict()
         # defaultdict(lambda n: pygame.font.SysFont("monospace", n))
