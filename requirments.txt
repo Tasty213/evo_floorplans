@@ -1,7 +1,11 @@
 pygame
-networkx
+networkx<2.0
 box2d
+box2d-py
 pyhull
 pyvoro
 pyclipper
 neat-python==0.7
+graphviz
+matplotlib
+swig
